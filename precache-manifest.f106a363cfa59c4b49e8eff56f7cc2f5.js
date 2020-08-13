@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93fb947ddc0d6c784fac014376fc0b7d",
+    "revision": "0eb0a4744a1f02e1f026db1fd4c6c83b",
     "url": "/minecraft-coord-translator/index.html"
   },
   {
-    "revision": "dfd4c71fc8dc10b04b32",
+    "revision": "f298e29904803ad10182",
     "url": "/minecraft-coord-translator/static/css/2.1ec1f82a.chunk.css"
   },
   {
-    "revision": "59e1de4d0d970bedf5aa",
+    "revision": "972eb033581be8ef6d1b",
     "url": "/minecraft-coord-translator/static/css/main.523f09c5.chunk.css"
   },
   {
-    "revision": "dfd4c71fc8dc10b04b32",
-    "url": "/minecraft-coord-translator/static/js/2.318f57ce.chunk.js"
+    "revision": "f298e29904803ad10182",
+    "url": "/minecraft-coord-translator/static/js/2.94db2cde.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/minecraft-coord-translator/static/js/2.318f57ce.chunk.js.LICENSE.txt"
+    "url": "/minecraft-coord-translator/static/js/2.94db2cde.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59e1de4d0d970bedf5aa",
-    "url": "/minecraft-coord-translator/static/js/main.bfd25789.chunk.js"
+    "revision": "972eb033581be8ef6d1b",
+    "url": "/minecraft-coord-translator/static/js/main.129a2cd8.chunk.js"
   },
   {
     "revision": "71ba3b6009f96be75f7a",
