@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/minecraft-coord-translator/static/css/main.523f09c5.chunk.css",
-    "main.js": "/minecraft-coord-translator/static/js/main.583ae975.chunk.js",
-    "main.js.map": "/minecraft-coord-translator/static/js/main.583ae975.chunk.js.map",
+    "main.js": "/minecraft-coord-translator/static/js/main.0b3c53a3.chunk.js",
+    "main.js.map": "/minecraft-coord-translator/static/js/main.0b3c53a3.chunk.js.map",
     "runtime-main.js": "/minecraft-coord-translator/static/js/runtime-main.29580792.js",
     "runtime-main.js.map": "/minecraft-coord-translator/static/js/runtime-main.29580792.js.map",
     "static/css/2.1ec1f82a.chunk.css": "/minecraft-coord-translator/static/css/2.1ec1f82a.chunk.css",
-    "static/js/2.3cecfd53.chunk.js": "/minecraft-coord-translator/static/js/2.3cecfd53.chunk.js",
-    "static/js/2.3cecfd53.chunk.js.map": "/minecraft-coord-translator/static/js/2.3cecfd53.chunk.js.map",
+    "static/js/2.306ac58f.chunk.js": "/minecraft-coord-translator/static/js/2.306ac58f.chunk.js",
+    "static/js/2.306ac58f.chunk.js.map": "/minecraft-coord-translator/static/js/2.306ac58f.chunk.js.map",
     "index.html": "/minecraft-coord-translator/index.html",
-    "precache-manifest.cf7cafe0f3421adbffe2af9d5598ebc4.js": "/minecraft-coord-translator/precache-manifest.cf7cafe0f3421adbffe2af9d5598ebc4.js",
+    "precache-manifest.846bdeb7d0964465b738a4c5103cb1dd.js": "/minecraft-coord-translator/precache-manifest.846bdeb7d0964465b738a4c5103cb1dd.js",
     "service-worker.js": "/minecraft-coord-translator/service-worker.js",
     "static/css/2.1ec1f82a.chunk.css.map": "/minecraft-coord-translator/static/css/2.1ec1f82a.chunk.css.map",
     "static/css/main.523f09c5.chunk.css.map": "/minecraft-coord-translator/static/css/main.523f09c5.chunk.css.map",
-    "static/js/2.3cecfd53.chunk.js.LICENSE.txt": "/minecraft-coord-translator/static/js/2.3cecfd53.chunk.js.LICENSE.txt",
+    "static/js/2.306ac58f.chunk.js.LICENSE.txt": "/minecraft-coord-translator/static/js/2.306ac58f.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/minecraft-coord-translator/static/media/logo.ee7cd8ed.svg",
     "static/media/index.css": "/minecraft-coord-translator/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.29580792.js",
     "static/css/2.1ec1f82a.chunk.css",
-    "static/js/2.3cecfd53.chunk.js",
+    "static/js/2.306ac58f.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.583ae975.chunk.js"
+    "static/js/main.0b3c53a3.chunk.js"
   ]
 }
