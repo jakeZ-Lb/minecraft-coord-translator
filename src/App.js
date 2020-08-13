@@ -80,23 +80,25 @@ function App() {
         break;
 
       case 90:
-        x = (ez - oz) + (cz - oz)
-        z = (-1 * (ex - ox)) + (cx - ox)
+        x = ez + (cz - oz)
+        z = (-1 * ex + (cx - ox))
         y = ey + (cy - oy)
 
         break;
 
       case 180:
-        x = (-1 * (ex - ox)) + (cx - ox)
-        z = (-1 * (ez - oz)) + (cz - oz)
+        console.log("cx - ox", cx - ox)
+        console.log('-1 * (ex - ox)', -1 * (ex - ox))
+        x = (-1 * (ex + (cx - ox)))
+        z = (-1 * (ez + (cz - oz)))
         y = ey + (cy - oy)
 
         break;
 
       case 270:
 
-        x = (-1 * (ez - oz)) + (cz - oz)
-        z = (ex - ox) + (cx - ox)
+        x = (-1 * (ez + (cz - oz)))
+        z = (ex + (cx - ox))
         y = ey + (cy - oy)
 
         break;
@@ -121,7 +123,7 @@ function App() {
   useEffect(() => {
     const reg = /-?\d+\.?\d+?/g
 
-    
+
 
 
     if (pasteInput) {
@@ -161,7 +163,7 @@ function App() {
 
           <Field value={oldEntity.y} cart='y' onChangeCallback={(value) => setOldEntity({ ...oldEntity, y: Number(value) })} />
           <Field value={oldEntity.z} cart='z' onChangeCallback={(value) => setOldEntity({ ...oldEntity, z: Number(value) })} />
-          <Grid item xs= {12}>
+          <Grid item xs={12}>
             <TextField
 
               id="outlined-full-width"
@@ -199,6 +201,24 @@ function App() {
           <ROField value={finishedCoords.x} cart='X' />
           <ROField value={finishedCoords.y} cart='y' />
           <ROField value={finishedCoords.z} cart='z' />
+          <Grid item xs={12}>
+            <TextField
+
+              id="outlined-full-width"
+              readOnly
+              label="Copy inline style"
+              onChange={parsePaste}
+              placeholder="0, 0, 0"
+              
+              fullWidth
+              value={`[${finishedCoords.x}, ${finishedCoords.y}, ${finishedCoords.z}]`}
+              margin="normal"
+              InputLabelProps={{
+                shrink: true,
+              }}
+              variant="outlined"
+            />
+          </Grid>
         </Grid>
         {/*Copy to Clipboard
          <Grid item xs="auto">
