@@ -14,7 +14,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "react-vis": "^1.11.7"
+    "react-vis": "^1.11.7",
+    "use-clippy": "^1.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +24,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"

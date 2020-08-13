@@ -158,8 +158,8 @@ function App() {
           <ROField value={finishedCoords.y} cart='y' />
           <ROField value={finishedCoords.z} cart='z' />
         </Grid>
-        Copy to Clipboard
-        <Grid item xs="auto">
+        {/*Copy to Clipboard
+         <Grid item xs="auto">
 
           <Button
             variant="contained"
@@ -169,7 +169,7 @@ function App() {
           >
             {`"x" => ${finishedCoords.x}, "y" => ${finishedCoords.y}, "z" => ${finishedCoords.z}`}
           </Button>
-        </Grid>
+        </Grid> */}
 
         {/* <Field input={coords.originCoords.z} />
       <Field input={coords.originCoords.y} /> */}
