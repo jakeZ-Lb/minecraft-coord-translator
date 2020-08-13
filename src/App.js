@@ -48,6 +48,7 @@ function App() {
 
 
   const [finishedCoords, setFinishedCoords] = useState(coords)
+  const [pasteInput, setpasteInput] = useState("")
 
 
 
@@ -107,10 +108,34 @@ function App() {
 
   }, [originCoords, currentCoords, oldEntity, rotation])
 
+
+
   useEffect(() => {
     setCurrentCoords({ x: originCoords.x, z: originCoords.z, y: originCoords.y })
   }, [originCoords])
 
+  useEffect(() => {
+    setCurrentCoords({ x: originCoords.x, z: originCoords.z, y: originCoords.y })
+  }, [originCoords])
+
+  useEffect(() => {
+    const reg = /-?\d+\.?\d+?/g
+
+    
+
+
+    if (pasteInput) {
+      const allNums = [...pasteInput.matchAll(reg)]
+
+      if (allNums?.length > 2) {
+        setOldEntity({ x: Number(allNums[0]), y: Number(allNums[1]), z: Number(allNums[2]) })
+      }
+    }
+  }, [pasteInput])
+
+  const parsePaste = (e) => {
+    setpasteInput(e.target.value)
+  }
 
   return (
     <Box m={8}>
@@ -136,6 +161,23 @@ function App() {
 
           <Field value={oldEntity.y} cart='y' onChangeCallback={(value) => setOldEntity({ ...oldEntity, y: Number(value) })} />
           <Field value={oldEntity.z} cart='z' onChangeCallback={(value) => setOldEntity({ ...oldEntity, z: Number(value) })} />
+          <Grid item xs= {12}>
+            <TextField
+
+              id="outlined-full-width"
+              label="Paste Coords"
+              onChange={parsePaste}
+              placeholder="Paste at least 3 numbers separated by whitespace or non numeric characters"
+              helperText="Paste parseable xyz coords"
+              fullWidth
+              value={pasteInput}
+              margin="normal"
+              InputLabelProps={{
+                shrink: true,
+              }}
+              variant="outlined"
+            />
+          </Grid>
         </Grid>
         <Grid item xs="auto">
           <FormControl  >
