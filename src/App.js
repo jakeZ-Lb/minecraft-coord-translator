@@ -158,7 +158,7 @@ function App() {
           <ROField value={finishedCoords.y} cart='y' />
           <ROField value={finishedCoords.z} cart='z' />
         </Grid>
-        Copz to Clipboard
+        Copy to Clipboard
         <Grid item xs="auto">
 
           <Button
