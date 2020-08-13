@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/minecraft-coord-translator/static/css/main.523f09c5.chunk.css",
-    "main.js": "/minecraft-coord-translator/static/js/main.0b3c53a3.chunk.js",
-    "main.js.map": "/minecraft-coord-translator/static/js/main.0b3c53a3.chunk.js.map",
+    "main.js": "/minecraft-coord-translator/static/js/main.f6988214.chunk.js",
+    "main.js.map": "/minecraft-coord-translator/static/js/main.f6988214.chunk.js.map",
     "runtime-main.js": "/minecraft-coord-translator/static/js/runtime-main.29580792.js",
     "runtime-main.js.map": "/minecraft-coord-translator/static/js/runtime-main.29580792.js.map",
     "static/css/2.1ec1f82a.chunk.css": "/minecraft-coord-translator/static/css/2.1ec1f82a.chunk.css",
     "static/js/2.306ac58f.chunk.js": "/minecraft-coord-translator/static/js/2.306ac58f.chunk.js",
     "static/js/2.306ac58f.chunk.js.map": "/minecraft-coord-translator/static/js/2.306ac58f.chunk.js.map",
     "index.html": "/minecraft-coord-translator/index.html",
-    "precache-manifest.846bdeb7d0964465b738a4c5103cb1dd.js": "/minecraft-coord-translator/precache-manifest.846bdeb7d0964465b738a4c5103cb1dd.js",
+    "precache-manifest.cf4453a43d820f6173ed2177357476f1.js": "/minecraft-coord-translator/precache-manifest.cf4453a43d820f6173ed2177357476f1.js",
     "service-worker.js": "/minecraft-coord-translator/service-worker.js",
     "static/css/2.1ec1f82a.chunk.css.map": "/minecraft-coord-translator/static/css/2.1ec1f82a.chunk.css.map",
     "static/css/main.523f09c5.chunk.css.map": "/minecraft-coord-translator/static/css/main.523f09c5.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.1ec1f82a.chunk.css",
     "static/js/2.306ac58f.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.0b3c53a3.chunk.js"
+    "static/js/main.f6988214.chunk.js"
   ]
 }

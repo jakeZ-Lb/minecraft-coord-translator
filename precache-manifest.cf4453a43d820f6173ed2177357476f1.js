@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "720a6409ca440ad29253e19ab2248da6",
+    "revision": "8c2b3f8c8656866c3622b4078b3c4608",
     "url": "/minecraft-coord-translator/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minecraft-coord-translator/static/css/2.1ec1f82a.chunk.css"
   },
   {
-    "revision": "490df5f8dacadfedae74",
+    "revision": "2ce8788f8ed044490cef",
     "url": "/minecraft-coord-translator/static/css/main.523f09c5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minecraft-coord-translator/static/js/2.306ac58f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "490df5f8dacadfedae74",
-    "url": "/minecraft-coord-translator/static/js/main.0b3c53a3.chunk.js"
+    "revision": "2ce8788f8ed044490cef",
+    "url": "/minecraft-coord-translator/static/js/main.f6988214.chunk.js"
   },
   {
     "revision": "71ba3b6009f96be75f7a",
