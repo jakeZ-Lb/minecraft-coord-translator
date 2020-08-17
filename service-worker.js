@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/minecraft-coord-translator/precache-manifest.cf4453a43d820f6173ed2177357476f1.js"
+  "/minecraft-coord-translator/precache-manifest.a23d167c522f35e5426fb410967c6ac2.js"
 );
 
 self.addEventListener('message', (event) => {
